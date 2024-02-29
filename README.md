@@ -173,19 +173,17 @@ From your Windows 10 VM, “SSH into” the Ubuntu Virtual Machine (via its priv
   Observe the activity that occurs once successfully connected into Ubuntu.</p>
 <br />
 
-<p>
-Back in Wireshark, filter for DHCP traffic only
-</p>
+
 <p>
 <img src="https://i.imgur.com/a0mufR0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/ikQdqx1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Back in Wireshark, filter for DHCP traffic only
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/ikQdqx1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
