@@ -189,7 +189,7 @@ Install and close. Then, restart and log back into DC-1 as user: mydomain.com\la
 <br />
 
 <p>
-In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”
+In Active Directory Users and Computers (ADUC)
 </p>
 <p>
 <img src="https://i.imgur.com/I8Osj7F.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -197,11 +197,11 @@ In Active Directory Users and Computers (ADUC), create an Organizational Unit (O
 <br />
 
 <p>
+create an Organizational Unit (OU) called “_EMPLOYEES"</p>
+<p>
 <img src="https://i.imgur.com/6PJW4Cl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”
-</p>
+
 <br />
 
 <p>
