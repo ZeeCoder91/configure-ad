@@ -265,7 +265,8 @@ From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP ad
 <br />
 
 <p>
-Restart your Client-1 VM</p>
+From the Azure Portal, restart Client-1
+</p>
 <p>
 <img src="https://i.imgur.com/VZyCt5Y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
