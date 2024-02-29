@@ -239,7 +239,7 @@ Create a new employee named “Jane Doe” (same password) with the username of 
 <br />
 
 <p>
-Add jane_admin to the “Domain Admins” Security Group
+Add jane_doe to the “Domain Admins” Security Group
 </p>
 <p>
 <img src="https://i.imgur.com/AUUmYXk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -257,7 +257,7 @@ Add jane_admin to the “Domain Admins” Security Group
 <br />
 
 <p>
-Create a new employee named “Jane Doe” (same password) with the username of “jane_doe” User jane_doe as your admin account from now on
+Join Client-1 to your domain (mydomain.com)
 </p>
 <p>
 <img src="https://i.imgur.com/hztYHCN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
