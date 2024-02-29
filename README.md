@@ -224,7 +224,7 @@ Observe the DNS traffic being show in WireShark
 <br />
 
 <p>
-Back in Wireshark, filter for RDP traffic only (tcp.port == 3389)
+Back in Wireshark, filter for RDP traffic only (tcp.port == 3389). Observe the immediate non-stop spam of traffic
 </p>
 <p>
 <img src="https://i.imgur.com/n2m7GY8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -232,10 +232,10 @@ Back in Wireshark, filter for RDP traffic only (tcp.port == 3389)
 <br />
 
 <p>
-<img src="https://i.imgur.com/yxHKPOd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+because the RDP (protocol) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/yxHKPOd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
