@@ -232,7 +232,7 @@ Back in Wireshark, filter for RDP traffic only (tcp.port == 3389). Observe the i
 <br />
 
 <p>
-because the RDP (protocol) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted
+Notice the RDP (protocol) is constantly showing a live stream from one computer to another, which is why the traffic is always being transmitted.
 </p>
 <p>
 <img src="https://i.imgur.com/yxHKPOd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
