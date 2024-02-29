@@ -147,13 +147,14 @@ Login to DC-1 and install Active Directory Domain Services
 <br />
 
 <p>
+Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is)
+</p>
+<p>
 <img src="https://i.imgur.com/W7RJvCG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-<p>
-Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is)
-</p>
+
 <p>
 <img src="https://i.imgur.com/6PSTsuz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
