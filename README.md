@@ -136,18 +136,18 @@ Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is using
 <br />
 
 <p>
-<img src="https://i.imgur.com/xa3wpqq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working)
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/xa3wpqq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/5vh29Fb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Stop the ping activity
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/5vh29Fb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
