@@ -43,44 +43,43 @@ Create a Resource Group. Create a Windows 10 Virtual Machine and while creating 
 </p>
 <br />
 
-
-<p>
-<img src="https://i.imgur.com/70uIcho.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 <p>
 Grab your Public IP Address from Microsoft Azure.
 </p>
+<p>
+<img src="https://i.imgur.com/70uIcho.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 <br />
 
-
-<p>
-<img src="https://i.imgur.com/MCYXVTO.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-</p>
 <p>
   Use Remote Desktop into your Windows 10 virtual machine. 
 </p>
+<p>
+<img src="https://i.imgur.com/MCYXVTO.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/IRnG3zV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 <p>
 Download and Intall Wireshark with all the default settings. 
 </p>
+<p>
+<img src="https://i.imgur.com/IRnG3zV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 <br />
 
+<p>
+Open Wireshark and filter for ICMP traffic only.
+</p>
 <p>
 <img src="https://i.imgur.com/s5YdUbp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Open Wireshark and filter for ICMP traffic only.</p>
 <br />
 
 <p>
+Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM</p>
+<p>
 <img src="https://i.imgur.com/i9j2yWr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM</p>
 <br />
 
 <p>
