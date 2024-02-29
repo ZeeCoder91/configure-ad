@@ -105,9 +105,6 @@ Open the Network Security Group your Ubuntu VM is using and disable incoming (in
 <br />
 
 <p>
-Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic
-</p>
-<p>
 <img src="https://i.imgur.com/sGPk8xi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
