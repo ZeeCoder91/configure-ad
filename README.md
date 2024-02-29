@@ -83,15 +83,6 @@ Open Wireshark and filter for ICMP traffic only.</p>
 Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM</p>
 <br />
 
-
-<p>
-<img src="https://i.imgur.com/RAum7N8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-  Use ping 
-</p>
-<br />
-
 <p>
 <img src="https://i.imgur.com/tkh1mxR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
