@@ -60,18 +60,18 @@ Grab your Public IP Address from Microsoft Azure.
 <br />
 
 <p>
-Download and Intall Wireshark with all the default settings. 
+<img src="https://i.imgur.com/IRnG3zV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.imgur.com/IRnG3zV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Download and Intall Wireshark with all the default settings. 
 </p>
 <br />
 
 <p>
-Open Wireshark and filter for ICMP traffic only.
+<img src="https://i.imgur.com/s5YdUbp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.imgur.com/s5YdUbp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Open Wireshark and filter for ICMP traffic only.
 </p>
 <br />
 
@@ -83,18 +83,18 @@ Retrieve the private IP address of the Ubuntu VM and attempt to ping it from wit
 <br />
 
 <p>
-<img src="https://i.imgur.com/tkh1mxR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Observe ping requests and replies within WireShark
 </p>
 <p>
-Observe ping requests and replies within WireShark
+<img src="https://i.imgur.com/tkh1mxR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/tVT63iN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM
 </p>
 <p>
-Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM
+<img src="https://i.imgur.com/tVT63iN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
@@ -105,10 +105,10 @@ Open the Network Security Group your Ubuntu VM is using and disable incoming (in
 <br />
 
 <p>
-<img src="https://i.imgur.com/sGPk8xi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic
 </p>
 <p>
-Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic
+<img src="https://i.imgur.com/sGPk8xi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
