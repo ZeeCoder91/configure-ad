@@ -60,18 +60,18 @@ Grab your Public IP Address from Microsoft Azure.
 <br />
 
 <p>
-<img src="https://i.imgur.com/IRnG3zV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Download and Intall Wireshark with all the default settings. 
 </p>
 <p>
-Download and Intall Wireshark with all the default settings. 
+<img src="https://i.imgur.com/IRnG3zV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/s5YdUbp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Open Wireshark and filter for ICMP traffic only.
 </p>
 <p>
-Open Wireshark and filter for ICMP traffic only.
+<img src="https://i.imgur.com/s5YdUbp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
