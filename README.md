@@ -169,11 +169,10 @@ From your Windows 10 VM, “SSH into” the Ubuntu Virtual Machine (via its priv
 <p>
 <img src="https://i.imgur.com/nkK8e9P.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p> 
-  Observe the activity that occurs once successfully connected into Ubuntu.</p>
 <br />
 
-
+<p> 
+  Observe the activity that occurs once successfully connected into Ubuntu.</p>
 <p>
 <img src="https://i.imgur.com/a0mufR0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
