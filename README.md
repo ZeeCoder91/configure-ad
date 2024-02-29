@@ -265,10 +265,10 @@ Join Client-1 to your domain (mydomain.com)
 <br />
 
 <p>
+Restart your Client-1 VM</p>
+<p>
 <img src="https://i.imgur.com/VZyCt5Y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Restart your Client-1 VM</p>
 <br />
 
 <p>
