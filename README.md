@@ -67,13 +67,13 @@ Set Domain Controller’s NIC Private IP address to be static
 </p>
 <br />
 
-<p>
-Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher</p>
-<p>
 <img src="https://i.imgur.com/mmKQFjf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
+<p>
+Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher</p>
+<p>
 <p>
 <img src="https://i.imgur.com/fLDkjmY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
