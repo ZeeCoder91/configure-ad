@@ -174,6 +174,9 @@ From your Windows 10 VM, “SSH into” the Ubuntu Virtual Machine (via its priv
 </p>
 <br />
 
+<p>
+  Exit the SSH connection by typing ‘exit’ and pressing [Enter]
+</p>
 
 <img src="https://i.imgur.com/a0mufR0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
