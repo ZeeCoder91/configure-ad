@@ -257,7 +257,7 @@ Add jane_doe to the “Domain Admins” Security Group
 <br />
 
 <p>
-Join Client-1 to your domain (mydomain.com)
+From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address
 </p>
 <p>
 <img src="https://i.imgur.com/hztYHCN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
