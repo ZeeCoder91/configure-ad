@@ -161,7 +161,7 @@ Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remem
 </p>
 <br />
 
-
+</p>Set the Password (We won't be using it in this lab)</p>
 <p>
 <img src="https://i.imgur.com/6PSTsuz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
