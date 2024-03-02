@@ -135,16 +135,19 @@ Login to DC-1 and install Active Directory Domain Services
 </p>
 <br />
 
+<p>Click on Active Directory Domain Services</p>
 <p>
 <img src="https://i.imgur.com/ql4qfbU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
+<p>Add the features</p>
 <p>
 <img src="https://i.imgur.com/udWfDcx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
+<p>
 <p>
 <img src="https://i.imgur.com/df6fHjW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
