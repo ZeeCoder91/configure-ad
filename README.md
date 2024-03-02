@@ -269,6 +269,7 @@ Click Add to add jane_admin to the “Domain Admins” Security Group
 </p>
 <br />
 
+<h3>Join Client-1 to your domain (mydomain.com)</h3>
 <p>
 From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address
 </p>
