@@ -243,14 +243,14 @@ Then create a new OU named “_ADMINS”</p>
 </p>
 <br />
 
-<p> A user account has been created for Jane Doe in the Admins Organizational Unit. But, we have to take additional steps to make this user an actual domain admin. We have to right click Jane Doe's account and clik on Properties > Members Of
+<p> A user account has been created for Jane Doe in the Admins Organizational Unit. But, we have to take additional steps to make this user an actual domain admin. We have to right click Jane Doe's account and click on Properties > Members Of
 <p>
 <img src="https://i.imgur.com/6QyvFwf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 <p>
-Add jane_doe to the “Domain Admins” Security Group
+Click Add to add jane_admin to the “Domain Admins” Security Group
 </p>
 <p>
 <img src="https://i.imgur.com/AUUmYXk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
