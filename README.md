@@ -161,36 +161,36 @@ Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remem
 </p>
 <br />
 
-</p>Set the Password (We won't be using it in this lab)</p>
+<p>Set the Password (We won't be using it in this lab)</p>
 <p>
 <img src="https://i.imgur.com/6PSTsuz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-</p>Next</p>
+<p>Next</p>
 <p>
 <img src="https://i.imgur.com/xGThr9l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-</p>Next</p>
+<p>Next</p>
 <p>
 <img src="https://i.imgur.com/DAr4xMD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-</p>Next</p>
+<p>Next</p>
 <p>
 <img src="https://i.imgur.com/uD1gwIT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
+<p>Next</p>
 <p>
 <img src="https://i.imgur.com/tMDqmDA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-</p>Next</p>
 <p>
 Install and close. Then, restart and log back into DC-1 as user: mydomain.com\labuser
 </p>
