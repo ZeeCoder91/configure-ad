@@ -243,6 +243,7 @@ Then create a new OU named “_ADMINS”</p>
 </p>
 <br />
 
+<p> A user account has been created for Jane Doe in the Admins Organizational Unit. But, we have to take additional steps to make this user an actual domain admin. 
 <p>
 <img src="https://i.imgur.com/6QyvFwf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
