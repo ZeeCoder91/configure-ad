@@ -257,11 +257,13 @@ Click Add to add jane_admin to the “Domain Admins” Security Group
 </p>
 <br />
 
+<p>Type 'Domain Admins' which is a built-in security group into the field. Click Ok.
 <p>
 <img src="https://i.imgur.com/IkRM5CO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
+<p>Click apply and ok. Our user has now been added to the Domain Admins group.
 <p>
 <img src="https://i.imgur.com/PYLxEvj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
