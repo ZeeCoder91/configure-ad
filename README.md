@@ -226,14 +226,13 @@ Then create a new OU named “_ADMINS”</p>
 </p>
 <br />
 
+<p>Create a new employee named “Jane Doe” (same password) with the username of “jane_admin”
+</p>
 <p>
 <img src="https://i.imgur.com/u6ZCKq3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-<p>
-Create a new employee named “Jane Doe” (same password) with the username of “jane_admin”
-</p>
 <p>
 <img src="https://i.imgur.com/MNR7gwb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
