@@ -6,9 +6,9 @@
 This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
 
 
-<h2>Video Demonstration</h2>
+<!--- <h2>Video Demonstration</h2>
 
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
+- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com) --->
 
 <h2>Environments and Technologies Used</h2>
 
@@ -49,7 +49,7 @@ Create the Domain Controller VM (Windows Server 2022) named “DC-1”. Take not
 <br />
 
 <p>
-Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created in Step 1.a</p>
+Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created in the last stepa</p>
 <p>
 <img src="https://i.imgur.com/qrOzNVX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
