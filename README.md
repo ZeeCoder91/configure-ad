@@ -36,8 +36,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-Create the Domain Controller VM (Windows Server 2022) named “DC-1”. Take note of the Resource Group and Virtual Network (Vnet) that gets created on the Networking tab:
-</p>
+Begin by setting up a new computer system named "DC-1" in Azure. This system will act as a manager for other computers in the network and runs on Windows Server 2022. It's important to note down the group and network paths it uses, found under the "Networking" section, because they help organize and connect everything efficiently.</p>
 <p>
 <img src="https://i.imgur.com/X13KZeX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -49,14 +48,14 @@ Create the Domain Controller VM (Windows Server 2022) named “DC-1”. Take not
 <br />
 
 <p>
-Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created in the last stepa</p>
+Next, set up a user computer system called "Client-1" that runs Windows 10, using Azure. Make sure to place it in the same organizational group and network path you noted earlier. This helps keep the systems connected and organized.</p>
 <p>
 <img src="https://i.imgur.com/qrOzNVX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 <p>
-Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher
+Verify that both virtual machines (VMs) are connected within the same virtual network (Vnet). You can use the Azure Network Watcher's topology feature for this verification. This step is crucial for ensuring that your systems can communicate seamlessly and are properly integrated within the same network environment.
 </p>
 <p>
 <img src="https://i.imgur.com/YEGgTRc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -64,8 +63,7 @@ Ensure that both VMs are in the same Vnet (you can check the topology with Netwo
 <br />
 
 <p>
-Set Domain Controller’s NIC Private IP address to be static
-</p>
+Configure the Domain Controller's network interface card (NIC) to use a static private IP address. This step is vital to maintain consistent network communication and avoid potential disruptions that could occur if the Domain Controller were to receive a new IP address dynamically. A static IP ensures that the Domain Controller is easily locatable by other devices on the network at all times.</p>
 <p>
 <img src="https://i.imgur.com/tupvfne.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
