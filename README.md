@@ -99,8 +99,10 @@ Verify that both virtual machines (VMs) are located within the same virtual netw
 </p>
 <br />
 
-<p>
-Login to the Domain Controller and enable ICMPv4 in on the local windows Firewall
+<p>Enable ICMPv4 on the Domain Controller's Firewall:
+<li>Log into the Domain Controller.</li>
+<li>Access Windows Firewall settings.</li>
+<li>Enable the ICMPv4 rule to allow incoming ping requests.</li>
 </p>
 <p>
 <img src="https://i.imgur.com/zA0UP12.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
