@@ -120,7 +120,7 @@ Verify that both virtual machines (VMs) are located within the same virtual netw
 <br />
 
 <p>
-Check back at Client-1 to see the ping succeed
+Return to Client-1 to confirm that the ping operation was successful.
 </p>
 <p>
 <img src="https://i.imgur.com/cl0shz2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -128,8 +128,7 @@ Check back at Client-1 to see the ping succeed
 <br />
 
 <p>
-Login to DC-1 and install Active Directory Domain Services
-</p>
+Log into DC-1 and, using Server Manager, initiate the installation of Active Directory Domain Services by clicking "Add Roles and Features.</p>
 <p>
 <img src="https://i.imgur.com/ElzTafx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -140,13 +139,13 @@ Login to DC-1 and install Active Directory Domain Services
 </p>
 <br />
 
-<p>Click on Active Directory Domain Services</p>
+<p>Select "Active Directory Domain Services" from the options available.</p>
 <p>
 <img src="https://i.imgur.com/ql4qfbU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-<p>Add the features</p>
+<p>Proceed to select and add the necessary features.</p>
 <p>
 <img src="https://i.imgur.com/udWfDcx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -159,53 +158,48 @@ Login to DC-1 and install Active Directory Domain Services
 <br />
 
 <p>
-Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is)
-</p>
+Initiate the promotion to a Domain Controller by establishing a new forest, naming it "mydomain.com" (this can be any name; ensure it's memorable).</p>
 <p>
 <img src="https://i.imgur.com/W7RJvCG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-<p>Set the Password (We won't be using it in this lab)</p>
+<p>Choose a password for the Domain Administrator account. Note: This password won’t be needed for the current lab’s activities.</p>
 <p>
 <img src="https://i.imgur.com/6PSTsuz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-<p>Next</p>
+<p>Proceed by selecting the default options at each step.</p>
 <p>
 <img src="https://i.imgur.com/xGThr9l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-<p>Next</p>
 <p>
 <img src="https://i.imgur.com/DAr4xMD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-<p>Next</p>
 <p>
 <img src="https://i.imgur.com/uD1gwIT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-<p>Next</p>
 <p>
 <img src="https://i.imgur.com/tMDqmDA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 <p>
-Install and close. Then, restart and log back into DC-1 as user: mydomain.com\labuser
-</p>
+Install, then close the installer. Restart DC-1, and log back in using the credentials for user: mydomain.com\labuser</p>
 <p>
 <img src="https://i.imgur.com/CtwaMHm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 <p>
-In Active Directory Users and Computers (ADUC)
+In Active Directory Users and Computers(ADUC)
 </p>
 <p>
 <img src="https://i.imgur.com/I8Osj7F.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -213,7 +207,7 @@ In Active Directory Users and Computers (ADUC)
 <br />
 
 <p>
-Create an Organizational Unit (OU) called “_EMPLOYEES"</p>
+Let's now introduce a structure to organize our directory. We'll start by creating an Organizational Unit (OU) named "_EMPLOYEES". This step helps in categorizing user accounts and managing them effectively. To do this, access the Active Directory Users and Computers console, right-click on your domain, select "New", and then "Organizational Unit". Input "_EMPLOYEES" as the name.</p>
 <p>
 <img src="https://i.imgur.com/6PJW4Cl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -225,13 +219,13 @@ Create an Organizational Unit (OU) called “_EMPLOYEES"</p>
 <br />
 
 <p>
-Then create a new OU named “_ADMINS”</p>
+Next, we'll create a special folder for administrator accounts called "_ADMINS". This helps us keep things organized and secure. To do this, go to the Active Directory Users and Computers area, right-click on your domain, choose "New", then "Organizational Unit", and name it "_ADMINS".</p>
 <p>
 <img src="https://i.imgur.com/DmONrTN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-<p>Create a new employee named “Jane Doe” (same password) with the username of “jane_admin”
+<p>Next, let's add a new team member named "Jane Doe" to our system. We'll give her the username "jane_admin" and set up her password. This step involves creating a user account for Jane in the Active Directory, ensuring she has the access she needs to perform her tasks.
 </p>
 <p>
 <img src="https://i.imgur.com/u6ZCKq3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -248,35 +242,35 @@ Then create a new OU named “_ADMINS”</p>
 </p>
 <br />
 
-<p>A user account has been created for Jane Doe in the Admins Organizational Unit. But, we have to take additional steps to make this user an actual domain admin. We have to right click Jane Doe's account and click on Properties > Members Of
+<p>For Jane Doe to have domain admin privileges, her user account, located in the Admins Organizational Unit, requires additional configuration. Right-click on Jane Doe's account, select "Properties," then navigate to the "Members Of" tab to proceed with assigning her the necessary administrative roles.
 <p>
 <img src="https://i.imgur.com/6QyvFwf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 <p>
-Click Add to add jane_admin to the “Domain Admins” Security Group
+To grant Jane Doe administrative rights, click "Add" under her account settings and include "jane_admin" in the "Domain Admins" security group.
 </p>
 <p>
 <img src="https://i.imgur.com/AUUmYXk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-<p>Type in 'Domain Admins' which is a built-in security group into the field. Click Ok.
+<p>Enter "Domain Admins" into the designated field to add Jane Doe to this built-in security group, then click "OK."
 <p>
 <img src="https://i.imgur.com/IkRM5CO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-<p>Click apply and ok. Our user has now been added to the Domain Admins group.
+<p>Click "Apply" followed by "OK" to confirm the addition of our user to the Domain Admins group.
 <p>
 <img src="https://i.imgur.com/PYLxEvj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-<h3>Join Client-1 to your domain (mydomain.com):</h3>
+<h3>Join Client-1 to the domain by changing its settings to become a member of "mydomain.com"</h3>
 <p>
-From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address
+In the Azure Portal, update Client-1's DNS settings to use the private IP address of your Domain Controller.
 </p>
 <p>
 <img src="https://i.imgur.com/hztYHCN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -284,7 +278,7 @@ From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP ad
 <br />
 
 <p>
-From the Azure Portal, restart Client-1
+In the Azure Portal, navigate to Client-1 and initiate a restart.
 </p>
 <p>
 <img src="https://i.imgur.com/VZyCt5Y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -292,15 +286,14 @@ From the Azure Portal, restart Client-1
 <br />
 
 <p>
-Login to Client-1 (Remote Desktop) as the original local admin (labuser) and join it to the domain (computer will restart)
-</p>
+Log into Client-1 using Remote Desktop as the local admin (labuser), and connect it to the domain. The computer will need to restart afterward.</p>
 <p>
 <img src="https://i.imgur.com/MhJcB00.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 <p>
-Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain
+Log into the Domain Controller using Remote Desktop, and in the Active Directory Users and Computers (ADUC) interface, check that Client-1 appears in the "Computers" container at the root of the domain.
 </p>
 <p>
 <img src="https://i.imgur.com/X3XnauP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -332,7 +325,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br />
 
 <p>
-Setup Remote Desktop for non-administrative users on Client-1
+Enable Remote Desktop access on Client-1 for non-administrative users.
 </p>
 <p>
 <img src="https://i.imgur.com/CfTaDkL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
