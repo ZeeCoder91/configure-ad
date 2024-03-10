@@ -360,11 +360,6 @@ Attempt to log into Client-1 using one of the account credentials provided (make
 <br />
 
 <p>
-<img src="https://i.imgur.com/w5jA9y7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-<p>
 <img src="https://i.imgur.com/hMLyEKM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
