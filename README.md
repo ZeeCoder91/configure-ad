@@ -55,7 +55,7 @@ Next, set up a user computer system called "Client-1" that runs Windows 10, usin
 <br />
 
 <p>
-Verify that both virtual machines (VMs) are connected within the same virtual network (Vnet). You can use the Azure Network Watcher's topology feature for this verification. This step is crucial for ensuring that your systems can communicate seamlessly and are properly integrated within the same network environment.
+Verify that both virtual machines (VMs) are connected within the same virtual network (Vnet).This step is crucial for ensuring that your systems can communicate seamlessly and are properly integrated within the same network environment.
 </p>
 <p>
 <img src="https://i.imgur.com/YEGgTRc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -74,16 +74,21 @@ Configure the Domain Controller's network interface card (NIC) to use a static p
 <br />
 
 <p>
-Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher</p>
+Verify that both virtual machines (VMs) are located within the same virtual network (Vnet). You can confirm their network configuration by utilizing the Network Watcher's topology feature. This step is crucial for ensuring seamless communication between the VMs, as being on the same Vnet allows for direct network connections without the need for complex routing or additional network services.</p>
 <p>
 <p>
 <img src="https://i.imgur.com/fLDkjmY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-<p>
-Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t <ip address> (perpetual ping)
-</p>
+<h2>Network Connection Validation</h2>
+<p>Ensure Client-1 can communicate with DC-1:</p>
+<ol>
+    <li>Access <strong>Client-1</strong> via Remote Desktop.</li>
+    <li>Open command prompt.</li>
+    <li>Type: <code>ping -t &lt;DC-1's IP&gt;</code> and press Enter.</li>
+</ol>
+<p>Continuous pinging tests the network connection stability between Client-1 and DC-1.</p>
 <p>
 <img src="https://i.imgur.com/03WouCC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
