@@ -327,6 +327,7 @@ To execute the script provided by your instructor, start by launching PowerShell
 </p>
 <br />
 
+<p>Execute the script and watch as the accounts are generated in the corresponding "Organizational Unit" in the ADUC.</p>
 <p>
 <img src="https://i.imgur.com/Gdtc11H.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
