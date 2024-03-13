@@ -301,17 +301,6 @@ Log into the Domain Controller using Remote Desktop, and in the Active Directory
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-<p>
 <img src="https://i.imgur.com/6Vuqufm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
