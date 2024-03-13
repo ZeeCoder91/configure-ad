@@ -347,7 +347,7 @@ Attempt to log into Client-1 using one of the account credentials created in the
 </p>
 <br />
 
-<p>Notice the new user, created by the script, has been successfully logged in.</p>
+<p>Final step: Notice the new user, created by the script, has been successfully logged in.</p>
 <p>
 <img src="https://i.imgur.com/2g4gOiH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
