@@ -293,7 +293,7 @@ Log into Client-1 using Remote Desktop as the local admin (labuser), and connect
 <br />
 
 <p>
-Log into the Domain Controller using Remote Desktop, and in the Active Directory Users and Computers (ADUC) interface, check that Client-1 appears in the "Computers" container at the root of the domain.
+Log into the Domain Controller using Remote Desktop, and in the Active Directory Users and Computers (ADUC) interface, check that Client-1 appears in the "Domain Users" and "Computers" container.
 </p>
 <p>
 <img src="https://i.imgur.com/X3XnauP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -333,18 +333,20 @@ To execute the script provided by your instructor, start by launching PowerShell
 <br />
 
 <p>
-Attempt to log into Client-1 using one of the account credentials provided (make sure to note the password from the script).
+Attempt to log into Client-1 using one of the account credentials created in the "_EMPLOYEES" Organizational Unit (make sure to note the password from the script).
 </p>
 <p>
 <img src="https://i.imgur.com/iJERtrg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
+<p>Enter the credentials of the new user.</p>
 <p>
 <img src="https://i.imgur.com/hMLyEKM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
+<p>Notice the new user, created by the script, has been successfully logged in.</p>
 <p>
 <img src="https://i.imgur.com/2g4gOiH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
